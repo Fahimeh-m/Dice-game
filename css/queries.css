@@ -1,0 +1,154 @@
+/* FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+ SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* rem or em do Not depend on html font size in media queries!
+instead 1rem(rem is the root font size)=1em(em is current font size)=16px */
+/***********/
+/* BELOW 1344px(smaller desktops) */
+/***********/
+
+@media (max-width: 84em) {
+  main {
+    max-width: 80rem;
+    max-height: 45rem;
+  }
+  .name {
+    font-size: 3.8rem;
+  }
+  .score {
+    font-size: 6.4rem;
+  }
+  .player {
+    padding: 7rem;
+  }
+  .current {
+    width: 65%;
+  }
+  .current-lable {
+    font-size: 1.4rem;
+  }
+  .current-score {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+  .btn-new {
+    top: 4rem;
+  }
+  .btn--roll {
+    top: 35rem;
+  }
+  .btn--hold {
+    top: 30rem;
+  }
+}
+
+/***********/
+/* BELOW 822px(smaller desktops) */
+/***********/
+@media (max-width: 52em) {
+  html {
+    /* 9px/16px = 56.25%  */
+    font-size: 56.25%;
+  }
+}
+
+/***********/
+/* BELOW 743px(smaller desktops) */
+/***********/
+@media (max-width: 46em) {
+  html {
+    /* 8px/16px = 56.25%  */
+    font-size: 50%;
+  }
+}
+
+/***********/
+/* BELOW 657px(smaller desktops) */
+/***********/
+@media (max-width: 41em) {
+  html {
+    /* 7px/16px = 43.75%  */
+    font-size: 43.75%;
+  }
+}
+
+/***********/
+/* BELOW 576px(smaller desktops) */
+/***********/
+@media (max-width: 36em) {
+  html {
+    /* 6px/16px =37.5% */
+    font-size: 37.5%;
+  }
+}
+
+/***********/
+/* BELOW 491px(smaller desktops) */
+/***********/
+@media (max-width: 30em) {
+  html {
+    /* 5px/16px =31.25% */
+    font-size: 31.25%;
+  }
+}
+
+/***********/
+/* BELOW 413px(smaller desktops) */
+/***********/
+@media (max-width: 25em) {
+  html {
+    /* 4px/16px =31.25% */
+    font-size: 25%;
+  }
+}
+
+/***********/
+/* BELOW 255px(smaller desktops) */
+/***********/
+@media (max-width: 20em) {
+  html {
+    /* 3px/16px =18.75% */
+    font-size: 18.75%;
+  }
+}
+
+/***********/
+/* BELOW 255px(smaller desktops) */
+/***********/
+@media (max-width: 15em) {
+  html {
+    /* 2px/16px =12.5% */
+    font-size: 12.5%;
+  }
+  main {
+    max-width: 50rem;
+  }
+  .name {
+    font-size: 2.6rem;
+  }
+  .score {
+    font-size: 5rem;
+  }
+  .player {
+    padding: 4rem;
+  }
+
+  .current-lable {
+    font-size: 1.2rem;
+  }
+  .current-score {
+    font-size: 2.8rem;
+  }
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.6rem 1rem;
+  }
+  .btn-new {
+    top: 1rem;
+  }
+}
